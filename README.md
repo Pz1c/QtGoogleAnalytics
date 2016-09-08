@@ -19,6 +19,11 @@ import ua.sp.GoogleAnalytics 0.9
 // but it's normal work as qml object property
 property var googleAnalytic: GoogleAnalytics
 
+// init
+googleAnalytic.setTID("YOUR-QA-CODE");
+googleAnalytic.setScreenSize(Qt.screenWidth, Qt.screenHeight);
+googleAnalytic.setOS(Qt.platform.os);
+
 // usage
 googleAnalytic.sendScreenview("Game field");
 googleAnalytic.sendEvent("Game", "Start", "Level", level);
