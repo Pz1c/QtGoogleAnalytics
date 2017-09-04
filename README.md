@@ -1,3 +1,6 @@
+# deprecated please use
+# https://github.com/Larpon/QtFirebase
+
 # QtGoogleAnalytics
 # Integration classes between Qt and Google Analytics
 
